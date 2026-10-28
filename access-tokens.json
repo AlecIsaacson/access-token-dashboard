@@ -3,7 +3,7 @@
   "kind": "Dashboard",
   "metadata": {
     "name": "alxsgmc",
-    "generation": 8,
+    "generation": 10,
     "creationTimestamp": "2026-10-28T15:01:47Z",
     "labels": {},
     "annotations": {}
@@ -37,7 +37,7 @@
         "kind": "Panel",
         "spec": {
           "id": 1,
-          "title": "Expiration Dates",
+          "title": "Cloud Access Token Status",
           "description": "",
           "links": [],
           "data": {
