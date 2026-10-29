@@ -8,7 +8,7 @@ The data for this dashboard comes from the grafana.com/api/v1/tokens endpoint.  
 
 ### Configuring the Infinity datasource
 To configure the Infinity datasource, do the following:
-1. Log in as a Grafana Cloud Portal at https://grafana.com.
+1. Log in to the Grafana Cloud Portal at https://grafana.com. You need to be a Grafana Cloud admin to do this.
 2. Click on the **Details** button next to one of your Grafana cloud stacks.
 3. In the left hand column, click on **Security - Access Policies**
 4. Find or create an access policy with the **accesspolicies:read** scope.
