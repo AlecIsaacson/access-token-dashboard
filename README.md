@@ -8,16 +8,17 @@ The data for this dashboard comes from the grafana.com/api/v1/tokens endpoint.  
 
 ### Configuring the Infinity datasource
 To configure the Infinity datasource, do the following:
-1. Log in as a Grafana Cloud Portal at https://grafana.com.
+1. Log in to the Grafana Cloud Portal at https://grafana.com. You need to be a Grafana Cloud admin to do this.
 2. Click on the **Details** button next to one of your Grafana cloud stacks.
 3. In the left hand column, click on **Security - Access Policies**
 4. Find or create an access policy with the **accesspolicies:read** scope.
 5. Generate a token from that access policy. Be sure to store the token somewhere safe, you'll only be able to view it once.
-6. In your Grafana Cloud stack, navigate to **Connections - Data sources**
-7. Add a new instance of the Infinity data source.  Name it **token-infinity-datasource**.
-8. When the new datasource is installed, navigate to **Settings - Authentication**.
-9. Set the Auth type to **Bearer Token**, paste the token you generated in step 5 above into **Auth details - Bearer token**, and add **https://grafana.com** as an allowed host.
-10. Click **Save & test**
+6. In your Grafana Cloud stack, navigate to **Administration - Plugins and data - Plugins**
+7. Search for **Infinity** and click **Install**.
+8. Add a new instance of the Infinity data source.  Name it **token-infinity-datasource**.
+9. When the new datasource is installed, navigate to **Settings - Authentication**.
+10. Set the Auth type to **Bearer Token**, paste the token you generated in step 5 above into **Auth details - Bearer token**, and add **https://grafana.com** as an allowed host.
+11. Click **Save & test**
 
 ### Identifying your Grafana Cloud region
 The dashboard query needs to be configured with your Grafana Cloud region.  Here's one way to find that:
